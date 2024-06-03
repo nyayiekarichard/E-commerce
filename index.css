@@ -1,0 +1,149 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+.header {
+  display: flex;
+  flex-direction: row;
+  background-color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+.header nav a {
+  text-decoration: none;
+  color: #333;
+  margin: 20px;
+  position: relative;
+  top: 25px;
+}
+
+.logo {
+  height: 80px;
+  width: 120px;
+}
+.main {
+  background: linear-gradient(135deg, #ff9a9e 0%, #fad0c4 100%);
+  padding: 50px 20px;
+  text-align: center;
+  border-radius: 50px;
+}
+.main h1 {
+  color: #fff;
+  font-size: 2.5em;
+}
+.main p {
+  color: #fff;
+  font-size: 1.2em;
+}
+.main button {
+  background-color: #ffd700;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1em;
+  cursor: pointer;
+}
+.main img {
+  margin-left: auto;
+}
+
+.categories,
+.featured-products,
+.summer-sale,
+.lenses,
+.ultimate-collection {
+  padding: 20px;
+  text-align: center;
+}
+.categories h2,
+.featured-products h2,
+.lenses h2,
+.ultimate-collection h2 {
+  font-size: 1.5em;
+  margin-bottom: 20px;
+}
+.categories .category,
+.featured-products .product,
+.lenses .lens {
+  display: inline-block;
+  width: 30%;
+  margin: 1%;
+  background-color: #f7f7f7;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.categories .category img,
+.featured-products .product img,
+.lenses .lens img {
+  max-width: 100%;
+  height: auto;
+}
+.summer-sale {
+  background-color: #f9ecec;
+  padding: 50px 20px;
+  border-radius: 50px;
+}
+.summer-sale h2 {
+  font-size: 1.5em;
+}
+.summer-sale img {
+  width: 50px;
+  height: auto;
+}
+.summer-sale button {
+  background-color: #ffd700;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1em;
+  cursor: pointer;
+}
+
+.ultimate-collection {
+  background-color: #e6d1f2;
+  padding: 50px 20px;
+  border-radius: 50px;
+}
+
+.ultimate-collection button {
+  background-color: #ffd700;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1em;
+  cursor: pointer;
+}
+
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  gap: 200px;
+}
+
+.footer p a {
+  color: white;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+}
+
+.help {
+  cursor: pointer;
+  
+}
+
+.help a {
+  text-decoration: none;
+  color: #fff;
+}
+.nav-2 {
+  cursor: pointer;
+}
+
+.nav-2 a {
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  color: #fff;
+}
